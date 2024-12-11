@@ -13,7 +13,7 @@ sendButton.addEventListener('click', () => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer YOUR_OPENAI_API_KEY`
+      'Authorization': `Bearer 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`
     },
     body: JSON.stringify({
       model: 'gpt-3.5-turbo',
